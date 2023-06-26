@@ -19,7 +19,7 @@ export default component$(() => {
 			<div class='m-4'>
 				<div class='relative'>
 					<input
-						class='block w-full p-4 pl-10 text-md placeholder-black text-black border border-gray-300 rounded-lg'
+						class='block w-full p-4 pl-6 text-md placeholder-black text-black border border-gray-300 rounded-lg'
 						placeholder='e.g. search for plant, water, hot.'
 						bind:value={termSignal}
 						onKeyDown$={(e) => {
