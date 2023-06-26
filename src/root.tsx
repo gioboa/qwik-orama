@@ -4,6 +4,9 @@ import { RouterHead } from './components/router-head/router-head';
 import './server';
 
 import './global.css';
+import { createOramaDb } from './server';
+
+createOramaDb();
 
 export default component$(() => {
   /**
